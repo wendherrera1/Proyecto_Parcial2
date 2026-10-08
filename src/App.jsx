@@ -43,6 +43,7 @@ function App() {
 
         <p className="subtitulo">NUESTRO UNIVERSO</p>
         <h2>Planetas</h2>
+        <p>Hola</p>
         <p className="descripcion">
           Nuestro sistema solar está formado por diferentes mundos,
           cada uno con características únicas.</p>
