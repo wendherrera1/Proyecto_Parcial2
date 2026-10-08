@@ -9,6 +9,7 @@ body {
   background-color: #0b0d17;
   color: #ffffff;
   line-height: 1.6;
+  padding: 20px;
 }
 
 img {
@@ -78,9 +79,10 @@ img {
   font-weight: bold;
 }
 
-/* Tarjetas (Planetas) */
+/* Tarjetas Planetas*/
 .tarjetas {
-  display: grid;
+  display: flex;
+  flex-direction: row;
   gap: 2rem;
   margin-top: 2rem;
 }

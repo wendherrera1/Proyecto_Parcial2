@@ -38,7 +38,6 @@ function App() {
         <div className="inicio-imagen">
           <img src={espacioJpg} alt="Tierra vista desde el espacio"/>
         </div>
-        <a href="#planestas" className="btn">Explorar planetas</a>
       </section>
 
       {/* PLANETAS */}
