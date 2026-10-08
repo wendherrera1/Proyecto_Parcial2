@@ -10,8 +10,6 @@ import tierraImg from "./assets/tierra.jpg";
 function App() {
   return (
     <>
-    <div>
-
       {/* MENÚ */}
       <nav className="navbar">
         <h2>Explorando EL Universo</h2>
@@ -88,7 +86,6 @@ function App() {
 
       </section>
 
-
       {/* MISIONES */}
       <section id="misiones" className="misiones">
 
@@ -127,8 +124,6 @@ function App() {
       <footer>
         <p className="copyright"> 2026 Explorar El Espacio</p>
       </footer>
-
-    </div>
     </>
   );
 }
