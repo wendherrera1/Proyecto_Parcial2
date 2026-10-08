@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #0b0d17;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+/* Barra de navegación */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background-color: rgba(11, 13, 23, 0.9);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  transition: color 0.2s;
+}
+
+.menu a:hover {
+  color: #d0d6f9;
+}
+
+/* Secciones generales */
+.seccion, .inicio, .misiones {
+  padding: 4rem 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.subtitulo {
+  color: #d0d6f9;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Sección Inicio */
+.inicio {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  min-height: 80vh;
+}
+
+.inicio-texto h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.inicio-texto span {
+  color: #d0d6f9;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #ffffff;
+  color: #0b0d17;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* Tarjetas (Planetas) */
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.tarjeta {
+  background-color: #151932;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tarjeta img {
+  border-radius: 0;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.tarjeta .contenido {
+  padding: 1.5rem;
+}
+
+/* Misiones */
+.misiones {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* Galería */
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.galeria img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #07080f;
+  margin-top: 4rem;
+  border-top: 1px solid #202645;
+}
+
+.copyright {
+  color: #888;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+}
