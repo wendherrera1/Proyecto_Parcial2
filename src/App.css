@@ -114,7 +114,8 @@ img {
 
 /* Galería */
 .galeria {
-  display: grid;
+  display: flex;
+  flex-direction: row;
   gap: 1rem;
   margin-top: 2rem;
 }
